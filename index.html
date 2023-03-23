@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>DAY-3 Interview Questions</h1>
+    </center>
+
+    <h3>1. Write a code to insert an Image</h3>
+
+    <strong>OUTPUT</strong> <br>
+    <img src="./MY.jpg" alt="" width="150" height="150">
+
+    <h3>2. Create a form contain input fields like name age email and contact</h3>
+
+    <strong>OUTPUT:</strong>
+    <form action="">
+        <label for="name">NAME: </label>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <br><br>
+        <label for="age">AGE: </label>
+        <input type="number" name="age" id="age" placeholder="Age">
+        <br><br>
+        <label for="email">EMAIL: </label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <br><br>
+        <label for="contact"> CONTACT: </label>
+        <input type="tel" name="contact" id="contact" placeholder="Contact">
+        
+
+    </form>
+
+
+    <h3>3. Create a table and explain how to achieve colspan</h3>
+
+    <strong>OUTPUT:</strong>
+    <center>
+    <table border="" width ="50%">
+        <thead>
+            <tr>
+                <th colspan="2" width="50%">Name</th>
+                <th>Age</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td> 23</td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td> 23</td>
+            </tr>
+        </tbody>
+    </table></center>
+
+    <p>
+        The colspan attribute defines the number of columns a table cell should span. To Achieve colspan in our table we use colspan in the td or th tag where we want to span our columns
+    </p>
+    <h3>4. Create one form that contains name , password, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(Male,Female) and one submit button. When you click on submit button the value should be shown in the url
+    </h3>
+
+
+    <strong>Output:</strong>
+    <form action="">
+        <label for="name">NAME: </label>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <br><br>
+        COURSE: <br>
+        <input type="radio" name="course" id="html" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" name="course" id="css" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" name="course" id="js" value="JS">
+        <label for="js">JS</label>
+        <br><br>
+
+        GENDER: <br>
+        <input type="checkbox" name="gender" id="male" value="Male">
+        <label for="male">MALE</label>
+        <input type="checkbox" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <input type="submit" value="submit">
+
+        
+    </form>
+
+</body>
+</html>
